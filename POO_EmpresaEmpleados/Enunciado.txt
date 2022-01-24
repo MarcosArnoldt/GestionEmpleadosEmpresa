@@ -1,0 +1,20 @@
+Aplicación:
+- Se gestiona información de una empresa y sus empleados.
+- Una empresa tiene un nombre y un listado de empleados.
+- Un empleado tiene la siguiente información: apellido, legajo, precio por hora y cantidad de horas trabajadas.
+- Todo empleado tiene una operación para obtener su salario final. El salario de un empleado está determinado por el precio de hora por la cantidad de horas trabajadas.
+- Hay dos tipos de empleados:
+	* Operario: tiene como característica adicional la "especialidad", pudiendo ser: Investigación, Desarrollo, Técnico.
+			En base a la especialidad, se incrementa el salario final de la siguiente manera: 
+				Investigación: se incrementa $2000 el salario.
+				Desarrollo: se incrementa $1000 el salario.
+				Técnico: se incrementa $1500 el salario.
+	* Supervisor: tiene como característica la "categoría", pudiendo ser: "1" ó "2".
+			En base a la categoría, se incrementa el salario final de la siguiente manera: 
+				1: se incrementa $2000 el salario.
+				2: se incrementa $1000 el salario.
+- La empresa tiene una operación que permite obtener el gasto total en salarios.
+- Implementar la estructura de clases a partir del escenario que se describe.
+- Implementar la aplicación que permita simular la creación de una empresa con su listado de empleados.
+- Mostrar el gasto total en salarios de la empresa.
+- Implementar la búsqueda de un empleado de la empresa por apellido.	
